@@ -1,0 +1,26 @@
+Wonhee Lee	54872959
+TicTacWowWeeWow.c
+
+TicTacWowWeeWow.c is a "tic-tac-toe" game with features added.
+It can be played by two people, or one person against PC.
+There are 4 AIs available to play against, Inky, Blinky, Pinky, Clyde.
+Inky picks first available move on the board.
+Blinky picks a random available move.
+Pinky blocks the player from getting 3 in a row when possible.
+Clyde uses full tree search to find the best move.
+The player is set to play as player 1.
+In game settings, you can modify the character and color of player 1 and 2.
+The default character is X for player 1, O for player 2, and the default color is 'default'.
+Red, Green, Blue, and Yellow is available to choose.
+Available colors are Red, Green, Blue, Yellow, and Default.
+If there is no more empty space in the game, it ends up as a draw.
+If the player gets the whole row, that player wins. 
+The program checks whether the new move is a winning move, by checking whether the new move satisfies the winning requirement.
+By receiving the new move that player made as an input, it checks row, column, diagonal, and reverse diagonal to see whether it satisfies the requirement.
+After each move, player can choose whether to take back their move.
+After the game against AI, player can choose to save a replay of the game in separate text file.
+
+I feel like I finished more than 80 percent of the assignment. 
+It would have been nice if I could make Clyde AI using dynamic struct, but I couldn't figure it out how.
+I implemented using minimax method using recursion, without using dynamic struct and linked list. 
+

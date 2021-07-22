@@ -1,0 +1,9 @@
+Wonhee Lee 54872959
+PhotoLab_v1
+
+PhotoLab_v2 is a progarm that modifies a loaded image in many ways.
+Currently there are six modifications available: aging, sharpen, edge detection, noise filter, posterizing, and negative filter.
+Unlike PhotoLab_v1, the program has been separated into header files.
+The files can be compiled at once through makefile. 
+I'm quite confident with the assignment for now since it does all the things as I meant.
+I feel like I completed at least 90% of the assignment. 

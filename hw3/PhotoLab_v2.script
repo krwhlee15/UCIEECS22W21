@@ -1,0 +1,109 @@
+Script started on Tue Feb 16 20:38:07 2021
+]0;wonheel1@crystalcove:hw3[wonheel1@crystalcove hw3]$ make clean
+rm -f *.o
+rm -f PhotoLab_v2
+rm -f PhotoLabTest
+]0;wonheel1@crystalcove:hw3[wonheel1@crystalcove hw3]$ make
+gcc -Wall -ansi -std=c99 -c FileIO.c -o FileIO.o
+gcc -Wall -ansi -std=c99 -c DIPs.c -o DIPs.o
+gcc -Wall -ansi -std=c99 -c Advanced.c -o Advanced.o
+gcc -Wall -ansi -std=c99 -c PhotoLab_v2.c -o PhotoLab_v2.o
+gcc -g -Wall -ansi -std=c99 -lm FileIO.o DIPs.o Advanced.o PhotoLab_v2.o -o PhotoLab_v2
+]0;wonheel1@crystalcove:hw3[wonheel1@crystalcove hw3]$ ./PhotoLab_v2
+Welcome to Photo Lab 2021 - v2!
+-------------------------
+ 1: Load a PPM image
+ 2: Save the image in PPM and JPEG format
+ 3: Run aging filter
+ 4: Run edge detection filter
+ 5: Run sharpen filter
+ 6. Run noise filter
+ 7. Run posterize filter
+ 8. Run negative filter
+22: Test all functions
+99: Exit
+--------------------------
+Please make your choice: 22
+pigeon.ppm was read successfully!
+aging.ppm was saved successfully. 
+aging.jpg was stored for viewing. 
+
+pigeon.ppm was read successfully!
+edge.ppm was saved successfully. 
+edge.jpg was stored for viewing. 
+
+pigeon.ppm was read successfully!
+sharpen.ppm was saved successfully. 
+sharpen.jpg was stored for viewing. 
+
+pigeon.ppm was read successfully!
+noise.ppm was saved successfully. 
+noise.jpg was stored for viewing. 
+
+pigeon.ppm was read successfully!
+posterize.ppm was saved successfully. 
+posterize.jpg was stored for viewing. 
+
+pigeon.ppm was read successfully!
+negative.ppm was saved successfully. 
+negative.jpg was stored for viewing. 
+
+
+-------------------------
+ 1: Load a PPM image
+ 2: Save the image in PPM and JPEG format
+ 3: Run aging filter
+ 4: Run edge detection filter
+ 5: Run sharpen filter
+ 6. Run noise filter
+ 7. Run posterize filter
+ 8. Run negative filter
+22: Test all functions
+99: Exit
+--------------------------
+Please make your choice: 99
+Exiting program.
+]0;wonheel1@crystalcove:hw3[wonheel1@crystalcove hw3]$ make PhotoLabTest
+gcc -DDEBUG -Wall -ansi -std=c99 -c PhotoLab_v2.c -o PhotoLabTest.o
+gcc -g -Wall -ansi -std=c99 -lm FileIO.o DIPs.o Advanced.o PhotoLabTest.o -o PhotoLabTest
+]0;wonheel1@crystalcove:hw3[wonheel1@crystalcove hw3]$ ./PhotoLabTest
+pigeon.ppm was read successfully!
+aging.ppm was saved successfully. 
+aging.jpg was stored for viewing. 
+Aging tested!
+
+pigeon.ppm was read successfully!
+edge.ppm was saved successfully. 
+edge.jpg was stored for viewing. 
+Edge Detection tested!
+
+pigeon.ppm was read successfully!
+sharpen.ppm was saved successfully. 
+sharpen.jpg was stored for viewing. 
+Sharpen tested!
+
+pigeon.ppm was read successfully!
+noise.ppm was saved successfully. 
+noise.jpg was stored for viewing. 
+Noise tested!
+
+pigeon.ppm was read successfully!
+posterize.ppm was saved successfully. 
+posterize.jpg was stored for viewing. 
+Posterize tested!
+
+pigeon.ppm was read successfully!
+negative.ppm was saved successfully. 
+negative.jpg was stored for viewing. 
+Negative tested!
+
+]0;wonheel1@crystalcove:hw3[wonheel1@crystalcove hw3]$ touch Advanced.c 
+]0;wonheel1@crystalcove:hw3[wonheel1@crystalcove hw3]$ make PhotoLab_v2
+PhotoLab_v2*        PhotoLab_v2.c       PhotoLab_v2.o       PhotoLab_v2.script  PhotoLab_v2.txt     
+]0;wonheel1@crystalcove:hw3[wonheel1@crystalcove hw3]$ make PhotoLab_v2
+gcc -Wall -ansi -std=c99 -c Advanced.c -o Advanced.o
+gcc -g -Wall -ansi -std=c99 -lm FileIO.o DIPs.o Advanced.o PhotoLab_v2.o -o PhotoLab_v2
+]0;wonheel1@crystalcove:hw3[wonheel1@crystalcove hw3]$ exit
+exit
+
+Script done on Tue Feb 16 20:39:36 2021

@@ -1,0 +1,8 @@
+Wonhee Lee 54872959
+PhotoLab_v1
+
+PhotoLab_v1 is a progarm that modifies a loaded image in many ways.
+Currently there are three modifications available: aging, sharpen, and edge detection.
+I wrote an extra function called Adjust, makes sure that all the modified pixels are in bound.
+I'm quite confident with the assignment for now since it does all the things as I meant.
+I feel like I completed at least 90% of the assignment. 

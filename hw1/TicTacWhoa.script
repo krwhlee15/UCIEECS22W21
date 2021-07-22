@@ -1,0 +1,156 @@
+Script started on Thu Jan 14 19:58:38 2021
+]0;wonheel1@crystalcove:hw1[wonheel1@crystalcove hw1]$ ./TicTacWhoa 
+Welcome to Secure-Tic-Tac-Whoa!
+1. Start New Game (Human v. Human)
+2. Start New Game (Human v. AI)
+3. Game Settings
+4. Exit Game
+Choose Option: 3
+1. Game size
+2. Player 1 Color/Character
+3. Player 2 Color/Character
+Choose Option: 2
+Available colors: Red(R), Blue(B), Green(G), Yellow(Y), Default(D)
+Current player 1 Color/Character: D, X
+Input new color for player 1(R, B, G, Y, D): R
+Input new Character for player 1: M
+Color/Character for player 1: R / M
+Welcome to Secure-Tic-Tac-Whoa!
+1. Start New Game (Human v. Human)
+2. Start New Game (Human v. AI)
+3. Game Settings
+4. Exit Game
+Choose Option: 1 3
+1. Game size
+2. Player 1 Color/Character
+3. Player 2 Color/Character
+Choose Option: 3
+Available colors: Red(R), Blue(B), Green(G), Yellow(Y), Default(D)
+Current player 2 Color/Character: D, O
+Input new color for player 2(R, B, G, Y, D): G
+Input new Character for player 2: L
+Color/Character for player 2: G / L
+Welcome to Secure-Tic-Tac-Whoa!
+1. Start New Game (Human v. Human)
+2. Start New Game (Human v. AI)
+3. Game Settings
+4. Exit Game
+Choose Option: 1
+Human v. Human game started
+C  | | 
+  -----
+B  | | 
+  -----
+A  | | 
+  1 2 3
+Player M, please choose your move: A1
+Player M chose A1
+C  | | 
+  -----
+B  | | 
+  -----
+A [31mM[0m| | 
+  1 2 3
+Player L, please choose your move: B1
+Player L chose B1
+C  | | 
+  -----
+B [32mL[0m| | 
+  -----
+A [31mM[0m| | 
+  1 2 3
+Player M, please choose your move: B2
+Player M chose B2
+C  | | 
+  -----
+B [32mL[0m|[31mM[0m| 
+  -----
+A [31mM[0m| | 
+  1 2 3
+Player L, please choose your move: C1
+Player L chose C1
+C [32mL[0m| | 
+  -----
+B [32mL[0m|[31mM[0m| 
+  -----
+A [31mM[0m| | 
+  1 2 3
+Player M, please choose your move: C3
+Player M chose C3
+C [32mL[0m| |[31mM[0m
+  -----
+B [32mL[0m|[31mM[0m| 
+  -----
+A [31mM[0m| | 
+  1 2 3
+Player M wins! Game Over!
+Welcome to Secure-Tic-Tac-Whoa!
+1. Start New Game (Human v. Human)
+2. Start New Game (Human v. AI)
+3. Game Settings
+4. Exit Game
+Choose Option: 2
+Player 1 or Player 2? (Type 1 or 2): 2
+Human v. AI game started
+C  | | 
+  -----
+B  | | 
+  -----
+A  | | 
+  1 2 3
+AI chose C1
+C [31mM[0m| | 
+  -----
+B  | | 
+  -----
+A  | | 
+  1 2 3
+Player, please choose your move: B2
+Player chose B2
+C [31mM[0m| | 
+  -----
+B  |[32mL[0m| 
+  -----
+A  | | 
+  1 2 3
+AI chose A1
+C [31mM[0m| | 
+  -----
+B  |[32mL[0m| 
+  -----
+A [31mM[0m| | 
+  1 2 3
+Player, please choose your move: B1
+Player chose B1
+C [31mM[0m| | 
+  -----
+B [32mL[0m|[32mL[0m| 
+  -----
+A [31mM[0m| | 
+  1 2 3
+AI chose A3
+C [31mM[0m| | 
+  -----
+B [32mL[0m|[32mL[0m| 
+  -----
+A [31mM[0m| |[31mM[0m
+  1 2 3
+Player, please choose your move: B3
+Player chose B3
+C [31mM[0m| | 
+  -----
+B [32mL[0m|[32mL[0m|[32mL[0m
+  -----
+A [31mM[0m| |[31mM[0m
+  1 2 3
+Player wins! Game Over!
+Welcome to Secure-Tic-Tac-Whoa!
+1. Start New Game (Human v. Human)
+2. Start New Game (Human v. AI)
+3. Game Settings
+4. Exit Game
+Choose Option: 4
+]0;wonheel1@crystalcove:hw1[wonheel1@crystalcove hw1]$ exit
+exit
+
+Script done on Thu Jan 14 19:59:54 2021

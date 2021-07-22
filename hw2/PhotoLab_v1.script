@@ -1,0 +1,44 @@
+Script started on Thu Jan 28 18:54:01 2021
+]0;wonheel1@crystalcove:hw2[wonheel1@crystalcove hw2]$ gcc PhotoLab_v1.c -ansi -Wall -std=c99 -o PhotoLab
+]0;wonheel1@crystalcove:hw2[wonheel1@crystalcove hw2]$ ./PhotoLab
+Welcome to Photo Lab 2021 - v1!
+----------------------------------------------
+ 1: Load PPM image
+ 2: Save image in PPM and JPEG format
+ 3: Run aging filter
+ 4: Run edge detection filter
+ 5: Run sharpen filter
+22: Test all functions
+99: Exit
+---------------------------------------------
+Please make your choice: 22
+lambo.ppm was read successfully!
+aging.ppm was saved successfully. 
+aging.jpg was stored for viewing. 
+Aging tested!
+
+lambo.ppm was read successfully!
+edge.ppm was saved successfully. 
+edge.jpg was stored for viewing. 
+Edge Detection tested!
+
+lambo.ppm was read successfully!
+sharpen.ppm was saved successfully. 
+sharpen.jpg was stored for viewing. 
+Sharpen tested!
+
+Welcome to Photo Lab 2021 - v1!
+----------------------------------------------
+ 1: Load PPM image
+ 2: Save image in PPM and JPEG format
+ 3: Run aging filter
+ 4: Run edge detection filter
+ 5: Run sharpen filter
+22: Test all functions
+99: Exit
+---------------------------------------------
+Please make your choice: 99
+]0;wonheel1@crystalcove:hw2[wonheel1@crystalcove hw2]$ exit
+exit
+
+Script done on Thu Jan 28 18:54:59 2021
